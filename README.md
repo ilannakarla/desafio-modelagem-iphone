@@ -1,18 +1,37 @@
-## Getting Started
+# 📱 Desafio POO: Modelagem do Componente iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido como parte do desafio de Java da DIO, com foco em Programação Orientada a Objetos e Modelagem UML. 
+O objetivo é simular as funcionalidades de um iPhone — Reprodutor Musical, Aparelho Telefônico e Navegador de Internet — utilizando interfaces e implementação em Java.
 
-## Folder Structure
+## 🔧 Funcionalidades Implementadas
 
-The workspace contains two folders by default, where:
+### 🎵 Reprodutor Musical
+- `tocar()`
+- `pausar()`
+- `selecionarMusica(String musica)`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 📞 Aparelho Telefônico
+- `ligar(String numero)`
+- `atender()`
+- `iniciarCorreioVoz()`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 🌐 Navegador na Internet
+- `exibirPagina(String url)`
+- `adicionarNovaAba()`
+- `atualizarPagina()`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Todas as funcionalidades foram modeladas por meio de **interfaces** e implementadas na classe principal `Iphone`.
 
-## Dependency Management
+## 📁 Estrutura do Projeto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+src/
+├── AparelhoTelefonico.java
+├── NavegadorInternet.java
+├── ReprodutorMusical.java
+└── Iphone.java
+
+## 🚀 Autora
+Desenvolvido com 💙 por Ilanna Karla, como parte do curso de Java da DIO
+
+✨ Se curtiu o projeto, não esquece de deixar uma ⭐ e acompanhar os próximos desafios
