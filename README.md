@@ -30,6 +30,38 @@ src/
 ├── NavegadorInternet.java
 ├── ReprodutorMusical.java
 └── Iphone.java
+```
+
+### :bar_chart: Diagrama UML
+
+```mermaid
+classDiagram
+direction TB
+    class ReprodutorMusical {
+	    +tocar()
+	    +pausar()
+	    +selecionarMusica(String musica)
+    }
+
+    class AparelhoTelefonico {
+	    +ligar(String numero)
+	    +atender()
+	    +iniciarCorreioVoz()
+    }
+
+    class NavegadorInternet {
+	    +exibirPagina(String url)
+	    +adicionarNovaAba()
+	    +atualizarPagina()
+    }
+
+    class Iphone {
+    }
+
+    Iphone -- NavegadorInternet
+    Iphone -- AparelhoTelefonico
+    Iphone -- ReprodutorMusical
+```
 
 ## 🚀 Autora
 Desenvolvido com 💙 por Ilanna Karla, como parte do curso de Java da DIO
